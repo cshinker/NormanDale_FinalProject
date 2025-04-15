@@ -41,6 +41,12 @@
   <ItemGroup>
     <Folder Include="function_package\" />
     <Folder Include="main_package\" />
+    <Folder Include="Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\EncryptedGroupHints.json" />
+    <Content Include="Data\TeamsAndEncryptedMessagesForDistribution.json" />
+    <Content Include="Data\English.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

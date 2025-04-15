@@ -12,6 +12,9 @@
 
 # Anything else that's relevant:
 
+from function_package.shinker import *
 
 if __name__ == "__main__":
-    pass
+    step2 = shinker()
+    hints = step2.get_team_words("Norman Dale")
+    print(hints)
