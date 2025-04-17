@@ -1,5 +1,5 @@
 # File Name: elmore.py
-# Student Name:  Luke elmore
+# Student Name:  Luke Elmore
 # email: elmorels@mail.uc.edu
 # Assignment Number: Final Project
 # Due Date: 4/24/2025

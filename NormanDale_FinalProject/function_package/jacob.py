@@ -1,6 +1,6 @@
 # File Name: jacob.py
-# Student Name: Cam Shinker, Luke elmore
-# email: shinkecj@mail.uc.edu, elmorels@mail.uc.edu
+# Student Name: Ryan Jacob
+# email: jacobry@mail.uc.edu
 # Assignment Number: Final Project
 # Due Date: 4/24/2025
 # Course #/Section: IS 4010-002
