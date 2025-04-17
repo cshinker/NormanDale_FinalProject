@@ -8,7 +8,7 @@
 # Brief Description of the assignment: Decrypt 2 files and take a photo according to the decrypted data.
 
 # Brief Description of what this module does: Contains Luke's work on the functions
-# Citations: 
+# Citations: https://chatgpt.com/
 
 # Anything else that's relevant:
 import json
@@ -16,6 +16,14 @@ from cryptography.fernet import Fernet
 
 class elmore():
     def decrypt_movie(self, file_path: str, team_name: str, fernet_key: str) -> str:
+        """
+        Decrypts a message for a given team using a Fernet key.
+        Args:
+            file_path (str): Path to the JSON file containing encrypted messages.
+            team_name (str): The name of the team whose message is to be decrypted.
+            fernet_key (str): The Fernet key used for decryption.
+            Returns: decrypted message as a string.
+            """
         # Load JSON data
         with open(file_path, 'r') as f:
             data = json.load(f)
