@@ -11,7 +11,7 @@
 # Citations: 
 
 # Anything else that's relevant:
-
+from function_package.jacob import*
 from function_package.shinker import *
 from function_package.elmore import *
 
@@ -24,4 +24,8 @@ if __name__ == "__main__":
     fernet_key = "tpeVVwifsg2Ga_CzYCndI9BC_HHzkj_pT_WyY2t_SeI="
     message = step3.decrypt_movie("Data/TeamsAndEncryptedMessagesForDistribution.json", "Norman Dale", fernet_key)
     print("Decrypted message:", message)
+
+    step6 = jacob()
+    step6.show_norman_dale_picture()
+
 

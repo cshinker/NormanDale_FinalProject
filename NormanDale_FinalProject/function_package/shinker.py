@@ -10,7 +10,7 @@
 # Brief Description of what this module does: Contains Cam's work on the functions
 # Citations: 
 
-# Anything else that's relevant:
+# Anything else that's relevant:https://gemini.google.com/app
 
 
 import json
