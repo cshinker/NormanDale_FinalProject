@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Data\EncryptedGroupHints.json" />
+    <Content Include="Data\NormanDalePicture.jpg" />
     <Content Include="Data\TeamsAndEncryptedMessagesForDistribution.json" />
     <Content Include="Data\English.txt" />
   </ItemGroup>
